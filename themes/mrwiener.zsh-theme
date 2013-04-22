@@ -1,0 +1,1 @@
+/Users/lucas/git/devsettings/zsh/themes/mrwiener.zsh-theme
