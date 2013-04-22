@@ -18,11 +18,12 @@ alias gc='git commit -m'
 compdef _git gc=git-commit
 alias gca='git commit -a -m'
 compdef _git gca=git-commit
+alias gcm='git commit -F .git/MERGE_MSG'
+compdef _git gcm=git-commit
 alias gco='git checkout'
 compdef _git gco=git-checkout
 alias gcb='git checkout -b'
 compdef _git gcb=git-checkout
-alias gcm='git checkout master'
 alias gr='git remote'
 compdef _git gr=git-remote
 alias grv='git remote -v'
@@ -44,9 +45,9 @@ compdef gcount=git
 alias gcl='git config --list'
 alias gcp='git cherry-pick'
 compdef _git gcp=git-cherry-pick
-alias glg='git log --stat --max-count=5'
+alias glg='git log --stat'
 compdef _git glg=git-log
-alias glgg='git log --graph --max-count=5'
+alias glgg='git log --graph'
 compdef _git glgg=git-log
 alias glgga='git log --graph --decorate --all'
 compdef _git glgga=git-log
