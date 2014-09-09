@@ -35,7 +35,7 @@ h3. The manual way
 
 1. Clone the repository
 
-  @git clone git://github.com/mrWiener/oh-my-zsh.git ~/.oh-my-zsh@
+  @git clone git://github.com/wnr/oh-my-zsh.git ~/.oh-my-zsh@
 
 2. *OPTIONAL* Backup your existing ~/.zshrc file
 
@@ -62,7 +62,7 @@ h2. Usage
 * enable the plugins you want in your @~/.zshrc@ (take a look at the @plugins/@ directory and the "wiki":https://github.com/robbyrussell/oh-my-zsh/wiki/Plugins to see what's possible)
 ** example: @plugins=(git osx ruby)@
 * Theme support: Change the @ZSH_THEME@ environment variable in @~/.zshrc@.
-** Take a look at the "current themes":https://wiki.github.com/mrWiener/oh-my-zsh/themes that come bundled with _Oh My Zsh_.
+** Take a look at the "current themes":https://wiki.github.com/wnr/oh-my-zsh/themes that come bundled with _Oh My Zsh_.
 * much much more...  take a look at @lib/@ what _Oh My Zsh_ offers...
 
 h2. Useful
@@ -105,6 +105,6 @@ h2. Contributors
 
 This project wouldn't exist without all of our awesome users and contributors.
 
-* "View our growing list of contributors":https://github.com/mrWiener/oh-my-zsh/contributors
+* "View our growing list of contributors":https://github.com/wnr/oh-my-zsh/contributors
 
 Thank you so much!
