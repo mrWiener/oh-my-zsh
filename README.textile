@@ -14,19 +14,11 @@ You can install this via the command line with either `curl` or `wget`.
 
 h4. via `curl`
 
-<<<<<<< HEAD
-@curl -L https://github.com/mrWiener/oh-my-zsh/raw/master/tools/install.sh | sh@
-
-h4. via `wget`
-
-@wget --no-check-certificate https://github.com/mrWiener/oh-my-zsh/raw/master/tools/install.sh -O - | sh@
-=======
 @curl -L http://install.ohmyz.sh | sh@
 
 h4. via `wget`
 
 @wget --no-check-certificate http://install.ohmyz.sh -O - | sh@
->>>>>>> eafd5f325208421b82a770e57441dd1063eb5745
 
 h4. Optional: change the install directory
 
@@ -107,13 +99,7 @@ h3. (Don't) Send us your theme! (for now)
 
 -I'm hoping to collect a bunch of themes for our command prompts. You can see existing ones in the @themes/@ directory.-
 
-<<<<<<< HEAD
-We have enough themes for the time being. Please fork the project and add in there, you can let people know how to grab it from there. 
-
-
-=======
 We have enough themes for the time being. Please fork the project and add on in there, you can let people know how to grab it from there.
->>>>>>> eafd5f325208421b82a770e57441dd1063eb5745
 
 h2. Contributors
 
