@@ -20,15 +20,15 @@ compdef _git gp=git-push
 alias gd='git diff'
 gdv() { git diff -w "$@" | view - }
 compdef _git gdv=git-diff
-alias gc='git commit -S -m'
+alias gc='git commit -m'
 compdef _git gc=git-commit
-alias gca='git commit -S -a -m'
+alias gca='git commit -a -m'
 compdef _git gca=git-commit
-alias gcm='git commit -S -F .git/MERGE_MSG'
+alias gcm='git commit -F .git/MERGE_MSG'
 compdef _git gcm=git-commit
-alias gc!='git commit -S -v --amend'
+alias gc!='git commit -v --amend'
 compdef _git gc!=git-commit
-alias gca!='git commit -S -a --amend'
+alias gca!='git commit -a --amend'
 compdef _git gca!=git-commit
 alias gcmsg='git commit -m'
 compdef _git gcmsg=git-commit
@@ -79,7 +79,7 @@ compdef _git gss=git-status
 alias ga='git add'
 compdef _git ga=git-add
 alias gap='git add --patch'
-alias gm='git merge -S'
+alias gm='git merge'
 compdef _git gm=git-merge
 alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
@@ -87,9 +87,9 @@ alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
 
 # Sign and verify commits with GPG
-alias gcs='git commit -S'
+alias gcs='git commit'
 compdef _git gcs=git-commit
-alias gsps='git show --pretty=short --show-signature'
+alias gsps='git show --pretty=short'
 compdef _git gsps=git-show
 
 # Sign and verify tags with GPG
